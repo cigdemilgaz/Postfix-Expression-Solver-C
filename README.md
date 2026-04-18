@@ -4,22 +4,22 @@ This project is an advanced Postfix Expression Solver that can determine unknown
 
 ## Key Capabilities
 
-**Expression Tree Construction:** Converts raw postfix strings into a structured binary tree format.
-**Recursive Evaluation:** Performs post-order traversal to calculate the value of the tree.
-**Brute-Force Permutation:** Systematically tests combinations for each variable to find solutions where the total expression equals zero.
-**Constraint Enforcement:** Ensures all division operations result in integers and handles zero-division errors.
+- **Expression Tree Construction:** Converts raw postfix strings into a structured binary tree format.
+- **Recursive Evaluation:** Performs post-order traversal to calculate the value of the tree.
+- **Brute-Force Permutation:** Systematically tests combinations for each variable to find solutions where the total expression equals zero.
+- **Constraint Enforcement:** Ensures all division operations result in integers and handles zero-division errors.
 
 ## Technical Implementation
 
 ### Data Structures
-**Stack:** A linked-list based stack used for building the Expression Tree from postfix notation.
-**Binary Expression Tree:** Nodes represent either operands (integers) or operators, with recursive links to children.
+- **Stack:** A linked-list based stack used for building the Expression Tree from postfix notation.
+- **Binary Expression Tree:** Nodes represent either operands (integers) or operators, with recursive links to children.
 
 ### Algorithm Flow
-**Parsing:** Identifies variables and constants in the input.
-**Recursive Search (solveT):** For each unknown character, the algorithm tries every operator and a range of integer values.
-**Tree Building (buildTree):** For every combination, a unique tree is constructed.
-**Validation (postorder):** The tree is evaluated. If the result is 0, the combination is printed as a valid solution.
+- **Parsing:** Identifies variables and constants in the input.
+- **Recursive Search (solveT):** For each unknown character, the algorithm tries every operator and a range of integer values.
+- **Tree Building (buildTree):** For every combination, a unique tree is constructed.
+- **Validation (postorder):** The tree is evaluated. If the result is 0, the combination is printed as a valid solution.
 
 ## Setup and Usage
 
