@@ -25,7 +25,7 @@ This project is an advanced Postfix Expression Solver that can determine unknown
 
 ### Input Format
 The input (input.txt) should be a postfix expression ending with = 0. Unknowns are represented by lowercase letters.
-Example: ``` 3 1 + 2 a ^ b 2 / = 0 ```
+- Example: ``` 3 1 + 2 a ^ b 2 / = 0 ```
 
 ### Output Example
 The program will display all valid combinations for the unknowns found in the expression:PlaintextPossible combination values for (a, b, c):
