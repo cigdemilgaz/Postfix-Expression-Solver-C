@@ -23,6 +23,10 @@ This project is an advanced Postfix Expression Solver that can determine unknown
 
 ## Setup and Usage
 
+### Prerequisites
+* A C compiler (e.g., `gcc`) or an IDE like Dev-C++.
+* An `input.txt` file in the same directory.
+
 ### Input Format
 The input (input.txt) should be a postfix expression ending with = 0. Unknowns are represented by lowercase letters.
 - Example: ``` 3 1 + 2 3 2 ^ a 2 / 4 3 - b - c * 2 4 1 + ^ 3 4 * 2 2 * - / 6 2 * - + = 0 ```
