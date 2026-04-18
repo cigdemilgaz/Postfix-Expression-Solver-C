@@ -32,7 +32,7 @@ The input (input.txt) should be a postfix expression ending with = 0. Unknowns a
 - Example: ``` 3 1 + 2 3 2 ^ a 2 / 4 3 - b - c * 2 4 1 + ^ 3 4 * 2 2 * - / 6 2 * - + = 0 ```
 
 ### Output Example
-The program will display all valid combinations for the unknowns found in the expression:PlaintextPossible combination values for (a, b, c):
+The program will display all valid combinations for the unknowns found in the expression:
 ```
 Possible value combinations for (a, b, c)
 (*, 8, +)
